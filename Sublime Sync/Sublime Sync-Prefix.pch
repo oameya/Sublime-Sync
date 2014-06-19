@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Sublime Sync' target in the 'Sublime Sync' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C23478E162D3E2A0013FC42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23478D162D3E2A0013FC42 /* Cocoa.framework */; };
+		3C234798162D3E2A0013FC42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C234796162D3E2A0013FC42 /* InfoPlist.strings */; };
+		3C23479A162D3E2A0013FC42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C234799162D3E2A0013FC42 /* main.m */; };
+		3C23479E162D3E2A0013FC42 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3C23479C162D3E2A0013FC42 /* Credits.rtf */; };
+		3C2347A1162D3E2A0013FC42 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2347A0162D3E2A0013FC42 /* SSAppDelegate.m */; };
+		3C2347A4162D3E2A0013FC42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2347A2162D3E2A0013FC42 /* MainMenu.xib */; };
+		3C58BC5A162D516E00723F7B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C58BC5C162D516E00723F7B /* Localizable.strings */; };
+		3CA82E93162D9B84007E4B7A /* SublimeSync.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3CA82E92162D9B84007E4B7A /* SublimeSync.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C234789162D3E2A0013FC42 /* Sublime Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sublime Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C23478D162D3E2A0013FC42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3C234790162D3E2A0013FC42 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3C234791162D3E2A0013FC42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C234792162D3E2A0013FC42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C234795162D3E2A0013FC42 /* Sublime Sync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sublime Sync-Info.plist"; sourceTree = "<group>"; };
+		3C234797162D3E2A0013FC42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C234799162D3E2A0013FC42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C23479B162D3E2A0013FC42 /* Sublime Sync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sublime Sync-Prefix.pch"; sourceTree = "<group>"; };
+		3C23479D162D3E2A0013FC42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3C23479F162D3E2A0013FC42 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		3C2347A0162D3E2A0013FC42 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		3C2347A3162D3E2A0013FC42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3C58BC4F162D508D00723F7B /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3C58BC50162D508D00723F7B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C58BC51162D508D00723F7B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3C58BC5B162D516E00723F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C58BC5D162D517100723F7B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3CA82E92162D9B84007E4B7A /* SublimeSync.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SublimeSync.icns; path = ../SublimeSync.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C234786162D3E2A0013FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C23478E162D3E2A0013FC42 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C23477E162D3E2A0013FC42 = {
+			isa = PBXGroup;
+			children = (
+				3C234793162D3E2A0013FC42 /* Sublime Sync */,
+				3C23478C162D3E2A0013FC42 /* Frameworks */,
+				3C23478A162D3E2A0013FC42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C23478A162D3E2A0013FC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C234789162D3E2A0013FC42 /* Sublime Sync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C23478C162D3E2A0013FC42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C23478D162D3E2A0013FC42 /* Cocoa.framework */,
+				3C23478F162D3E2A0013FC42 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C23478F162D3E2A0013FC42 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C234790162D3E2A0013FC42 /* AppKit.framework */,
+				3C234791162D3E2A0013FC42 /* CoreData.framework */,
+				3C234792162D3E2A0013FC42 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3C234793162D3E2A0013FC42 /* Sublime Sync */ = {
+			isa = PBXGroup;
+			children = (
+				3C23479F162D3E2A0013FC42 /* SSAppDelegate.h */,
+				3C2347A0162D3E2A0013FC42 /* SSAppDelegate.m */,
+				3C2347A2162D3E2A0013FC42 /* MainMenu.xib */,
+				3CA82E95162D9B94007E4B7A /* Resources */,
+				3C234794162D3E2A0013FC42 /* Supporting Files */,
+			);
+			path = "Sublime Sync";
+			sourceTree = "<group>";
+		};
+		3C234794162D3E2A0013FC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C234795162D3E2A0013FC42 /* Sublime Sync-Info.plist */,
+				3C234796162D3E2A0013FC42 /* InfoPlist.strings */,
+				3C234799162D3E2A0013FC42 /* main.m */,
+				3C23479B162D3E2A0013FC42 /* Sublime Sync-Prefix.pch */,
+				3C23479C162D3E2A0013FC42 /* Credits.rtf */,
+				3C58BC5C162D516E00723F7B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA82E95162D9B94007E4B7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CA82E92162D9B84007E4B7A /* SublimeSync.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C234788162D3E2A0013FC42 /* Sublime Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2347A7162D3E2A0013FC42 /* Build configuration list for PBXNativeTarget "Sublime Sync" */;
+			buildPhases = (
+				3C234785162D3E2A0013FC42 /* Sources */,
+				3C234786162D3E2A0013FC42 /* Frameworks */,
+				3C234787162D3E2A0013FC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sublime Sync";
+			productName = "Sublime Sync";
+			productReference = 3C234789162D3E2A0013FC42 /* Sublime Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C234780162D3E2A0013FC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = oameya;
+			};
+			buildConfigurationList = 3C234783162D3E2A0013FC42 /* Build configuration list for PBXProject "Sublime Sync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 3C23477E162D3E2A0013FC42;
+			productRefGroup = 3C23478A162D3E2A0013FC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C234788162D3E2A0013FC42 /* Sublime Sync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C234787162D3E2A0013FC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C234798162D3E2A0013FC42 /* InfoPlist.strings in Resources */,
+				3C23479E162D3E2A0013FC42 /* Credits.rtf in Resources */,
+				3C2347A4162D3E2A0013FC42 /* MainMenu.xib in Resources */,
+				3C58BC5A162D516E00723F7B /* Localizable.strings in Resources */,
+				3CA82E93162D9B84007E4B7A /* SublimeSync.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C234785162D3E2A0013FC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C23479A162D3E2A0013FC42 /* main.m in Sources */,
+				3C2347A1162D3E2A0013FC42 /* SSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C234796162D3E2A0013FC42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C234797162D3E2A0013FC42 /* en */,
+				3C58BC50162D508D00723F7B /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C23479C162D3E2A0013FC42 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C23479D162D3E2A0013FC42 /* en */,
+				3C58BC51162D508D00723F7B /* ja */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3C2347A2162D3E2A0013FC42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2347A3162D3E2A0013FC42 /* en */,
+				3C58BC4F162D508D00723F7B /* ja */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3C58BC5C162D516E00723F7B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C58BC5B162D516E00723F7B /* en */,
+				3C58BC5D162D517100723F7B /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2347A5162D3E2A0013FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C2347A6162D3E2A0013FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C2347A8162D3E2A0013FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sublime Sync/Sublime Sync-Prefix.pch";
+				INFOPLIST_FILE = "Sublime Sync/Sublime Sync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C2347A9162D3E2A0013FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sublime Sync/Sublime Sync-Prefix.pch";
+				INFOPLIST_FILE = "Sublime Sync/Sublime Sync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C234783162D3E2A0013FC42 /* Build configuration list for PBXProject "Sublime Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2347A5162D3E2A0013FC42 /* Debug */,
+				3C2347A6162D3E2A0013FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2347A7162D3E2A0013FC42 /* Build configuration list for PBXNativeTarget "Sublime Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2347A8162D3E2A0013FC42 /* Debug */,
+				3C2347A9162D3E2A0013FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C234780162D3E2A0013FC42 /* Project object */;
+}
